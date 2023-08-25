@@ -1,12 +1,16 @@
 import React from "react";
 import { Header, Footer } from "./func-components";
-import { EventData2 } from "./event-data";
+import MessageBox from "./state-func";
+//import Cart from "./state-class";
+//import RefsClass from "./refs-class";
+//import { EventData2 } from "./event-data";
 
 function App(){
   return (
     <>
       <Header/>
-      <EventData2/>
+      <MessageBox/>
+      <br/>
       <Footer/>
     </>
   )

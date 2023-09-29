@@ -1,10 +1,9 @@
 import React from 'react'
-import Router3 from "./router3"
-
+import FormCheck from './form-check'
+import FormText from './form-text'
 export default function App() {
-  //let [user, setUser] = React.useState()
   
   return (
-    <Router3/>
+    <FormText/>
   )
 }
